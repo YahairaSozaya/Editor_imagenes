@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+<body class="body" id="body">
+    <div class="editor">
+        <div class="controles">
+            <h1>EDITOR DE IMÁGENES</h1>
+            <div class="control_item">
+                <div class="label">
+                    <p>Brillo</p>
+                    <p>200%</p>
+                </div>
+                <input class="input" id="brillo_item" type="range" min="0" max="200">
+            </div>
+
+            <div class="control_item">
+                <div class="label">
+                    <p>Contraste</p>
+                    <p>200%</p>
+                </div>
+
+                <input class="input" id="contraste_item" type="range" min="0" max="200">
+            </div>
+            
+            <div class="control_item">
+                <div class="label">
+                    <p>Desenfoque</p>
+                    <p>10px</p>
+                </div>
+
+                <input class="input" id="desenfoque_item" type="range" min="0" max="10">
+            </div>
+
+            <div class="control_item">
+                <div class="label">
+                    <p>Opacidad</p>
+                    <p>1</p>
+                </div>
+
+                <input class="input" id="opacidad_item" step="0.1" type="range" min="0" max="1">
+            </div>
+
+            <div class="control_item">
+                <div class="label">
+                    <p>Saturación</p>
+                    <p>200%</p>
+                </div>
+
+                <input class="input" id="saturacion_item" type="range" min="0" max="200">
+            </div>
+            
+            <div class="control_item">
+                <div class="label">
+                    <p>Escala de grises</p>
+                    <p>100%</p>
+                </div>
+
+                <input class="input" id="grises_item" type="range" min="0" max="100">
+            </div>
+
+            <div class="control_item">
+                <div class="label">
+                    <p>Sepia</p>
+                    <p>100</p>
+                </div>
+
+                <input class="input" id="sepia_item" type="range" min="0" max="100">
+            </div>
+        </div>
+        
+        <div class="imagenContainer">
+            <div class="imagen">
+                <img  id="imagen" class="imagen_item" src="./images/imagen.jpg" alt="imagen a editar">
+            </div>
+            <button id="button_choise" class="button" value="1">Nueva</button>
+        </div>
+
+
+        
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

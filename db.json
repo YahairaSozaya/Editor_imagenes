@@ -1,0 +1,80 @@
+{
+  "todas":{
+    "peliculas": [
+      {
+        "id": 1,
+        "nombre": "El sexto sentido",
+        "director": "M. Night Shyamalan",
+        "clasificacion": "Drama",
+        "video":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/haley-joel-osment-and-bruce-willis-star-in-the-sixth-sense-news-photo-51096792-1565023773.jpg?resize=480:*"
+      },
+      {
+        "id": 2,
+        "nombre": "Pulp Fiction",
+        "director": "Tarantino",
+        "clasificacion": "Acción",
+        "video":"https://www.juanvilar.com/wp-content/uploads/2019/09/Pulp-fiction.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "Todo Sobre Mi Madre",
+        "director": "Almodobar",
+        "clasificacion": "Drama",
+        "video":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHEdj_P8nAZeQkrJbI7y6T7YNA7V_WiL6WQ&usqp=CAU"
+      },
+      {
+        "id": 4,
+        "nombre": "300",
+        "director": "Zack Snyder",
+        "clasificacion": "Acción",
+        "video":"https://www.ecestaticos.com/imagestatic/clipping/e66/119/e6611960b5401b22d2a4615b6002e563.jpg"
+      },
+      {
+        "id": 5,
+        "nombre": "El silencio de los corderos",
+        "director": "Jonathan Demme",
+        "clasificacion": "Drama",
+        "video":"https://i.blogs.es/8f4d95/silencio-de-los-corderos-poster/450_1000.jpg"
+      }
+    ],
+
+    "peliculas2":[
+      {
+        "id": 1,
+        "nombre": "Forrest Gump",
+        "director": "Robert Zemeckis",
+        "clasificacion": "Comedia",
+        "video":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7I-aK2O9OGBuGVlpgEr_0bClc2dCKcc20DA&usqp=CAU"
+      },
+      {
+        "id": 2,
+        "nombre": "Las Hurdes",
+        "director": "Luis Buñuel",
+        "clasificacion": "Documental",
+        "video":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8luu5poTYd-Wsx547sFQtV04O8s6fS8YCNw&usqp=CAU"
+      },
+      {
+        "id": 3,
+        "nombre": "El señor de los anillos",
+        "director": "Peter Jackson",
+        "clasificacion": "Fantasía",
+        "video":"https://as01.epimg.net/epik/imagenes/2020/08/04/portada/1596535756_527518_1596535915_noticia_normal_recorte1.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Hercules",
+        "director": "Ron Clements",
+        "clasificacion": "Fantasía",
+        "video":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK0Gx7im7FtmDFR5Et9Pc9UIeDpZaHA9Zhtg&usqp=CAU"
+      },
+      {
+        "id": 5,
+        "nombre": "ESO",
+        "director": "Andrés Muschietti",
+        "clasificacion": "Terror",
+        "video":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEuY_cDs9T7s1bcXc5SRy2urtWgv0n74SYAA&usqp=CAU"
+      }
+    ]
+  }
+    
+}
